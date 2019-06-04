@@ -1,7 +1,7 @@
 package tuto.eclipse.jal.selenium.pageObjects.homePage;
 
 public abstract class HomePageIDs {
-	
+
 	public static final String DEPARTURE_FROM_AREA_ID = "mdlDepArea1";
 //	public static final String DEPARTURE_FROM_AREA_SELECTED_VALUE_ = "mdlDepArea1";
 	public static final String DEPARTURE_FROM_CITY_ID = "mdlDepLocation1";
@@ -13,12 +13,12 @@ public abstract class HomePageIDs {
 	public static final String SEARCH_BUTTON_ID = "mdlFormSubmit";
 	public static final String RT_RADIO_BUTTON_ID = "mdlTripType1";
 	public static final String OW_RADIO_BUTTON_ID = "mdlTripType2";
-	
+
 	public static final String CONTINUE_BUTTON_ID = "mdlFormSubmit";
-	
+
 	public static final String LAST_PANEL_TO_LOAD_CLASS = "setPic";
 	public static final String MODAL_CLOSE_BUTTON_CSS = "#JS_ciBox_contents img";
-	
+
 	public static final String DATE_PICKER_ICON_CLASS = "calendar";
 	public static final String DATE_PICKER_NEXT_MONTH_CLASS = "nextMonth";
 	public static final String DATE_PICKER_PREVIOUS_MONTH_CLASS = "prevMonth";
