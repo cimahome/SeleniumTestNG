@@ -18,6 +18,10 @@ public class BookingFlow {
 		home.run();
 	}
 
+	protected void avaiPageRun() {
+		// TODO
+	}
+
 	protected void run() {
 		homePageRun();
 		dispoPageRun();
@@ -26,5 +30,6 @@ public class BookingFlow {
 	protected void dispoPageRun() {
 		DispoPage dispo = new DispoPage();
 		dispo.run();
+
 	}
 }
